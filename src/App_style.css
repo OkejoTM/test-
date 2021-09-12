@@ -1,0 +1,36 @@
+body{
+    margin: 0px;
+    padding : 0px;
+    background : linear-gradient(lightgrey, black);
+    background-repeat : no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.div-h1-header{
+    font-family : "MV Boli";
+}
+
+.divContainer{
+    margin : 0px;
+    padding : 40px;
+    position : absolute;
+    left : 50%;
+    top : 50%;
+    transform: translate(-50%,-50%);
+    text-align : center;
+}
+
+.buttonFirst{
+    width : 65%;
+    border-radius : 10px;
+    text-align : center;
+    font-size: 30px;
+    font-family : "Ink Free";
+    background-color : #8DA0A6;
+    padding : 0.5rem;
+
+}
+.buttonFirst:hover{
+    background-color : #6F8D97;
+}
